@@ -20,7 +20,7 @@ latest_posts:
 
 **作者：** 作者1<sup>1</sup>, 作者2<sup>2</sup>, 作者3<sup>1,*</sup>
 
-<sup>1</sup> 北京交通大学 &nbsp;&nbsp; <sup>2</sup> 其他单位  
+<sup>1</sup> 厦门大学 &nbsp;&nbsp; <sup>2</sup> 其他单位  
 <sup>*</sup> 通讯作者
 
 ---
