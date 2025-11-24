@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/ASC/publications/";
           },
+        },{id: "nav-taxonomy",
+          title: "Taxonomy",
+          description: "Interactive taxonomy of trustworthy embodied AI",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/ASC/taxonomy/";
+          },
         },{id: "nav-projects",
           title: "projects",
           description: "A growing collection of your cool projects.",
