@@ -2,33 +2,75 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-
+subtitle: 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
+  image: 
+  image_circular: false
+  more_info:
+selected_papers: false
+social: false
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
+  enabled: false
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+## 论文标题（改成你们的标题）
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+**作者：** 作者1<sup>1</sup>, 作者2<sup>2</sup>, 作者3<sup>1,*</sup>
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<sup>1</sup> 北京交通大学 &nbsp;&nbsp; <sup>2</sup> 其他单位  
+<sup>*</sup> 通讯作者
+
+---
+
+### 摘要
+
+在这里写你们综述的摘要内容...
+
+---
+
+### 📄 论文链接
+
+- [PDF 全文](#)
+- [arXiv](#)
+
+---
+
+### 📌 主要贡献
+
+1. 第一个贡献点
+2. 第二个贡献点
+3. 第三个贡献点
+
+---
+
+### 🖼️ 核心图表
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/figure1.png" title="图1标题" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    图1：图片说明
+</div>
+
+---
+
+### 📚 引用
+
+如果您觉得我们的工作有帮助，请引用：
+```bibtex
+@article{your2024survey,
+  title={Your Survey Title},
+  author={Author1 and Author2},
+  journal={Journal Name},
+  year={2024}
+}
+```
+
+---
+
+把你们的论文标题、作者、摘要告诉我，我可以帮你填好具体内容。
